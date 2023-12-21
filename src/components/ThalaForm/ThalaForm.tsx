@@ -24,11 +24,12 @@ const ThalaForm = () => {
   return (
     <div title="Thala Form">
       <div className="flex max-w-7xl px-6 lg:px-8">
-        <div className="flex-auto mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none">
+        <div className="flex-auto mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Welcome to THALA World!!
             </h2>
+            <p className="mt-4 text-lg leading-8 text-yellow-400 font-semibold italic">Thala is an Emotion</p>
             <p className="mt-4 text-lg leading-8 text-gray-300">
               Thala is a former Indian cricketer who captained the national team
               in all formats. He is widely regarded as one of the greatest
@@ -37,7 +38,7 @@ const ThalaForm = () => {
               the 2013 Champions Trophy
             </p>
           </div>
-          <div className="mt-6 flex  items-center justify-center max-w-md gap-x-4">
+          <div className="flex  items-center justify-center max-w-md gap-x-4">
             <FormInput
               label="Enter something"
               type="text"
@@ -66,7 +67,7 @@ const ThalaForm = () => {
                 <Image
                   src="/images/thala.jpg"
                   fill
-                  className="object-contain"
+                  className="slideDown object-contain"
                   alt="illustration"
                 />
               </div>
